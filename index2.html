@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main2.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>  <!-- JQueryをCDN経由で使うための1行 -->
+      <title>JavaScript/JQuery実践課題(梶原)</title>
+    </head>
+
+    <body>
+      <h2>2．電卓</h2>
+      
+      <div class="frame">
+        <input class="window" type="text">
+          <div class="frame-S">
+            <button class="btn-S" onclick="append('7')">7</button>
+            <button class="btn-S" onclick="append('8')">8</button>
+            <button class="btn-S" onclick="append('9')">9</button>
+            <button class="btn-S" onclick="append(' + ')">+</button>
+          </div>
+          <div class="frame-S">
+            <button class="btn-S" onclick="append('4')">4</button>
+            <button class="btn-S" onclick="append('5')">5</button>
+            <button class="btn-S" onclick="append('6')">6</button>
+            <button class="btn-S" onclick="append(' - ')">-</button>
+           </div>
+          <div class="frame-S">
+            <button class="btn-S" onclick="append('1')">1</button>
+            <button class="btn-S" onclick="append('2')">2</button>
+            <button class="btn-S" onclick="append('3')">3</button>
+            <button class="btn-S" onclick="append(' * ')">×</button>
+          </div>
+          <div class="frame-S">  
+            <button class="btn-S" onclick="append('0')">0</button>
+            <button class="btn-S" onclick="append('00')">00</button>
+            <button class="btn-S" onclick="append('.')">.</button>
+            <button class="btn-S" onclick="append(' / ')">÷</button>
+          </div>
+          <div class="frame-L">  
+            <button class="btn-L" onclick="update('')">Clear</button>
+            <button class="btn-L" onclick="calc()">=</button>
+          </div>
+        </div>
+
+        <script src="main2.js"></script>
+    </body>
+</html>

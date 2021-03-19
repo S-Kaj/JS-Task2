@@ -1,0 +1,53 @@
+.frame{
+  width:150px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.window{
+  width: 95%;
+  margin: 5px auto 10px;
+  color: white;
+  background-color: black;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.frame-S{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame-L{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-S{
+  width: 30px;
+  height: 30px;
+  color: green;
+  background-color: yellow;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.btn-L{
+  width: 70px;
+  height: 30px;
+  color: green;
+  background-color: yellow;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 15px;
+}
